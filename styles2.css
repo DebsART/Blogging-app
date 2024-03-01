@@ -1,0 +1,66 @@
+body{
+	background-color: black;
+}
+
+#container{
+	background: rgb(2,0,36);
+	background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(41,41,237,0.9738270308123249) 30%, rgba(227,231,233,1) 90%);
+	padding: 30px;
+	width: 60%;
+	margin: auto;
+}
+
+#img{
+	height: 130px;
+	width: 130px;
+}
+
+h1{
+	font-size: 50px;
+	color: white;
+}
+
+h2, h5, p, a{
+	color: white;
+}
+
+
+#header{
+	display: flex;
+	margin-top: 0px;
+}
+
+#header>p{
+	padding-top: 45px;
+	margin-left: auto;
+	font-size: 15px;
+	padding-right: 30px;
+}
+
+li{
+	list-style-type: none;
+	margin-bottom: 40px;
+}
+
+.blogHeaders{
+	display: flex;
+	gap: 15px;
+}
+
+.blogHeaders>h2{
+	margin:0px;
+}
+
+#titleLink{
+	text-decoration: none;
+}
+
+.blogHeaders>a{
+	padding-top: 7px;
+	font-size: 12px;
+}
+
+h5{
+	margin-top: 5px;
+}
+
